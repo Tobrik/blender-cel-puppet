@@ -1,0 +1,28 @@
+# inputs you bring (copyright / size): reference clips, audio, character art and what's cut from it
+*.mp4
+*.mov
+*.webm
+*.m4a
+*.mp3
+*.wav
+examples/*/art/
+examples/*/parts/
+examples/*/reference/
+examples/*/render/
+examples/*/checks/
+examples/*/models/
+*.pth
+
+# Blender
+*.blend
+*.blend1
+
+# analysis by-products
+*.npz
+*.npy
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
